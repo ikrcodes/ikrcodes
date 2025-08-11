@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #040b14;
+  color: white;
+}
+.sidebar-position{
+  position: absolute;
+  left: -100px;
+}
