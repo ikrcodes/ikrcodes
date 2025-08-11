@@ -10,7 +10,9 @@ import { Certifications } from "./pages/Certifications";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Contact } from "./pages/Contact";
+import Error404 from "./pages/error404";
 import { FaEnvelopeOpen, FaPhone } from "react-icons/fa6";
+
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,6 +50,7 @@ export default function App() {
               <Route path="/works" element={<Works />} />
               <Route path="/certifications" element={<Certifications />} />
               <Route path="/get-in-touch" element={<Contact />} />
+              <Route path="*" element={<Error404/>} />
             </Routes>
           </div>
         </div>
