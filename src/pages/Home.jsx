@@ -34,7 +34,7 @@ const Home = () => {
           <div className="button-section flex gap-10 my-8">
             <a href="/get-in-touch"><button className="flex items-center gap-2 border-2 border-cyan-400  px-6  py-2 bg-cyan-400  text-gray-900 rounded-lg hover:bg-transparent hover:text-cyan-400 hover:shadow-sm hover:shadow-cyan-400 transition-all duration-300">
               <FaRegEnvelope className="text-lg" />
-              <span>Get In Toch</span>
+              <span>Get In Touch</span>
             </button>
             </a>
             <a href="../../public/content/IkrarsCV.pdf" download="IkrarsCV.pdf">
@@ -49,7 +49,7 @@ const Home = () => {
           <img
             src={profile}
             alt="Profile"
-            className="h-[350px] w-[350px] mx-auto rounded-full shadow-[0_0_25px_rgba(34,211,238,0.7)] hover:shadow-[0_0_50px_rgba(34,211,238,0.7)] hover:scale-105 transition-all duration-300"
+            className="h-[350px] w-[350px] md:h-[350px] md:w-[350px] mx-auto rounded-full shadow-[0_0_25px_rgba(34,211,238,0.7)] hover:shadow-[0_0_50px_rgba(34,211,238,0.7)] hover:scale-105 transition-all duration-300"
           />
         </div>
       </div>

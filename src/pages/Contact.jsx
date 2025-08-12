@@ -20,6 +20,7 @@ export const Contact = () => {
       (result) => {
         alert("Message sent successfully!");
         console.log(result.text);
+        form.current.reset(); // ✅ Clear all fields after success
       },
       (error) => {
         alert("Failed to send message, try again!");
